@@ -43,8 +43,8 @@ make install<br>
 git submodule init<br>
 git submodule update<br>
 git pull<br>
-wget http://pastebin.com/raw.php?i=hHKVQfrh -O ./include/GLES2/gl2.h<br>
-wget http://pastebin.com/raw.php?i=ShQXc6jy -O ./include/GLES2/gl2ext.h<br>
+wget https://raw.githubusercontent.com/mvdiogo/gpu_orangepi/master/1.txt -O ./include/GLES2/gl2.h<br>
+wget https://raw.githubusercontent.com/mvdiogo/gpu_orangepi/master/2.txt -O ./include/GLES2/gl2ext.h<br>
 make config ABI=armhf VERSION=r3p0<br>
 mkdir /usr/lib/mali<br>
 echo "/usr/lib/mali" > /etc/ld.so.conf.d/1-mali.conf<br>
